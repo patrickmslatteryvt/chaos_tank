@@ -4,7 +4,9 @@ The most fun you'll have obliterating your production cluster!
 
 ## DISCLAIMER
 
-Whatever you shoot are the pods in the `default` namespace. Please make sure you are not actually killing your environments!
+Whatever you shoot are the pods in the `default` namespace. The Dockerized version will shoot containers in whatever namespace you put in the `NS` env var.
+
+Please make sure you are not actually killing your environments!
 
 ## Usage
 
