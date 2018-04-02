@@ -27,7 +27,7 @@ docker container run \
   --name=chaos_tank \
   --hostname=chaos_tank \
   --volume=/home/pslattery/.kube/config:/go/kube-config \
-  pslattery/chaos_tank:latest
+  patrickmslatteryvt/chaos_tank:latest
 ```
 
 
