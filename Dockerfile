@@ -5,4 +5,5 @@ WORKDIR /go/src/chaos_tank
 RUN go get -d -v ./...
 
 COPY entrypoint.sh /
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
