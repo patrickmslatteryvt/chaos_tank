@@ -14,7 +14,7 @@ Please make sure you are not actually killing your environments!
 
 ```
 go get
-go run chaos_tank.go -kubeconfig ~/.kube/config 
+go run chaos_tank.go -kubeconfig ~/.kube/config
 ```
 
 Or in a container:
@@ -26,7 +26,7 @@ docker container run \
   --env=NS=demos-words \
   --name=chaos_tank \
   --hostname=chaos_tank \
-  --volume=/home/pslattery/.kube/config:/go/kube-config \
+  --volume=${HOME}/.kube/config:/go/kubeconfig \
   patrickmslatteryvt/chaos_tank:latest
 ```
 
