@@ -25,7 +25,7 @@ docker container run \
   --rm \
   --env=NS=demos-words \
   --name=chaos_tank \
-  --volume=${HOME}/.kube/config:/go/kubeconfig \
+  --volume=/home/your_username/.kube/config:/go/kubeconfig \
   patrickmslatteryvt/chaos_tank:latest
 ```
 
